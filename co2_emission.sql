@@ -57,10 +57,5 @@ SET Transmission = CASE WHEN  Transmission = 'AS6' THEN 'Auto Select Shift 6 Gea
 						ELSE Transmission 
 						END;
                  
-SELECT * FROM co2_emissions
-LIMIT 20;
-            
-			
-                        
-                        
+SELECT * FROM co2_emissions;                          
 							
